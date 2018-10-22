@@ -12,6 +12,7 @@
    - Вижте снимката от къде да вземете адреса - https://cdn.pbrd.co/images/HHdx5Sn.png 
    - `git clone https://github.com/[MY-GITHUB-ID]/fmi-kn-8.git` (ще бъде създадена директория fmi-kn-8)
 - Когато създавате проект после, сложете като Location -  където сте клонирали вашия форк .
+- Как да ъпдейнете вашият fork - https://www.youtube.com/watch?v=TsUIRtT80QU
 
 ## Example git commands
 ```

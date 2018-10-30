@@ -43,6 +43,8 @@ void ex1_wordCount()
     char input_string[256];
     std::cin.getline(input_string, sizeof(input_string));
     std::cout << "Entered string " << input_string;
+    // implementation of get_string_length is in string_utilities.hpp (we will reuse it in other exercises)
+    // we can access it here because we've included it above using #include "string_utilities.hpp"
     std::cout << ". Number of characters is " << get_string_length(input_string);
     std::cout << ". Number of words is " << get_word_count(input_string);
     std::cout << std::endl;

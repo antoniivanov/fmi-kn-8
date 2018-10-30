@@ -55,8 +55,8 @@ int main()
 {
 
     std::cout << "Please enter in one of the following formats: "
-                 "encode <key> <message-to-decode> or "
-                 "decode <key> <message-to-encode> \n";
+                 "encode <key> <message-to-encode> or "
+                 "decode <key> <message-to-decode> \n";
     char operation[16];
     std::cin >> operation;
     int key;

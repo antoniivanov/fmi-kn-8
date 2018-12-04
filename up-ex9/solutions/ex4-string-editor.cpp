@@ -16,7 +16,7 @@ int stringLength(char* str)
 }
 
 /**
- * Takes to variables and swaps their original values 
+ * Takes two pointers to variables and swaps their original values 
  * 
  * param letter1
  * param letter2

@@ -33,7 +33,7 @@ void swap(char* letter1, char* letter2)
 /**
  * Takes begginig and ending of a string and swaps them,
  * continues recursively until the string is reversed. 
- * (in the middle)
+ * (until they reach the middle)
  * 
  * param begin
  * param end
@@ -49,7 +49,7 @@ void reverseString(char* begin, char* end)
 }
 
 /**
- * Takes a string and pass it to a overloaded function
+ * Takes a string and passes it to an overloaded function
  * reversing the given string.
  * 
  * param str

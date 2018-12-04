@@ -1,7 +1,7 @@
 #include <iostream>
 
 /**
- * Takes to variables and swaps their original values 
+ * Takes two pointers to variables and swaps their original values 
  * 
  * param letter1
  * param letter2
@@ -53,7 +53,7 @@ void permutations(int* arr, int begin, int end)
 	// Going through each of the remaining elements of the array
 	// to swap them with the current one so we can continue recursively 
 	// with all possible combinations, and then reverting the swap
-	// to make sure next iteration will have the same behaviour.
+	// to make sure the next iteration will have the same behaviour.
 	for (int i = begin; i < end; i++)
 	{
 		swap(arr + begin, arr + i);

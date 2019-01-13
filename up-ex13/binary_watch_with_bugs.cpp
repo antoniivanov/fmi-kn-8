@@ -20,16 +20,12 @@ void get_all_combinations(char results[][6], int &results_index,
             bits_list[i] = -1;
             if (i < 5) {
                 hour += copy;
-            } else {
-                minute += copy;
             }
             get_all_combinations(results,
                                  results_index, hour, minute,
                                  bits_list, i, bits_list_size, n - 1);
             if (i < 5) {
                 hour -= copy;
-            } else {
-                minute -= copy;
             }
         }
     }
